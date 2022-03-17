@@ -1,0 +1,72 @@
+body{
+    background-color:;
+}
+.container{
+    margin: auto;
+    height: 80%;
+    width: 60%;
+    /* box-shadow: 5px 5px 15px gray; */
+}
+
+.iphone{
+    margin: auto;
+    height: 400px;
+    width: 200px ;
+    border: 7px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+.notch{
+    height: 20px;
+    width: 50%;
+    /* margin: auto; */
+    background: #000;
+    position: absolute;
+    top:0px;
+    left: 25%;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px;
+}
+/* .ear-cam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.camera{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin: 3px;
+    
+    
+}
+.earpiece{
+    height: 5px;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color:gray;
+    display: inline-block;
+    margin-left:30px;
+   margin-bottom: 2px;
+
+
+}
+.camera-2{
+    height: 6px;
+    width: 6px;
+    /* background-color: aliceblue; */
+    border-radius: 50%;
+    /* margin-left:5px;
+    margin-top: 3px; */
+    border: 1px solid gray;
+    display: inline-block;
+    margin-bottom: 1px;
+   background-color: gray;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
